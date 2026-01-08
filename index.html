@@ -3,37 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Oméga Tech – Service d’habitat</title>
+  <title>Oméga Tech – Service d’Habitat</title>
+  <meta name="description" content="Oméga Tech – Entreprise d’ingénierie et de construction spécialisée en services d’habitat.">
   <style>
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
-      background-color: #f4f6f8;
+      background-color: #f5f7fa;
       color: #333;
     }
     header {
-      background-color: #0b3c5d;
+      background: #0b3c5d;
       color: #fff;
       padding: 20px;
       text-align: center;
     }
     section {
-      padding: 20px;
-      max-width: 900px;
+      padding: 40px 20px;
+      max-width: 1000px;
       margin: auto;
     }
     h1, h2 {
       color: #0b3c5d;
     }
-    .services li {
-      margin-bottom: 8px;
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
     footer {
-      background-color: #0b3c5d;
+      background: #0b3c5d;
       color: #fff;
       text-align: center;
-      padding: 10px;
-      margin-top: 40px;
+      padding: 15px;
     }
   </style>
 </head>
@@ -41,36 +49,44 @@
 
   <header>
     <h1>Oméga Tech</h1>
-    <p>Service professionnel d’habitat et de maintenance</p>
+    <p>Service d’Habitat & Ingénierie de Construction</p>
   </header>
 
   <section>
     <h2>À propos</h2>
     <p>
-      Oméga Tech est une entreprise spécialisée dans les services liés à l’habitat :
-      installation, maintenance et assistance technique. Notre objectif est d’offrir
-      des solutions fiables, durables et adaptées aux besoins de nos clients.
+      Oméga Tech est une structure spécialisée dans les services d’ingénierie,
+      la conception et la réalisation de projets de construction et d’habitat
+      adaptés au contexte local et aux normes techniques.
     </p>
   </section>
 
   <section>
     <h2>Nos services</h2>
-    <ul class="services">
-      <li>Installation électrique et maintenance</li>
-      <li>Maintenance générale du bâtiment</li>
-      <li>Assistance technique et dépannage</li>
-      <li>Conseil et accompagnement technique</li>
-    </ul>
+    <div class="services">
+      <div class="card">
+        <h3>Études techniques</h3>
+        <p>Analyse, dimensionnement et études de faisabilité des projets.</p>
+      </div>
+      <div class="card">
+        <h3>Construction</h3>
+        <p>Réalisation de bâtiments résidentiels et infrastructures légères.</p>
+      </div>
+      <div class="card">
+        <h3>Conseil & suivi</h3>
+        <p>Assistance technique, supervision et accompagnement de projets.</p>
+      </div>
+    </div>
   </section>
 
   <section>
     <h2>Contact</h2>
-    <p>Email : johnmullerfrancois1@gmail.com</p>
-    <p>Téléphone : à renseigner</p>
+    <p>Email : contact@omegatech.ht</p>
+    <p>Téléphone : +509 XX XX XX XX</p>
   </section>
 
   <footer>
-    <p>© 2026 Oméga Tech — Tous droits réservés</p>
+    <p>© 2026 Oméga Tech – Tous droits réservés</p>
   </footer>
 
 </body>
